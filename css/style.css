@@ -491,7 +491,42 @@ div.shop > div.volkan > img {
 
 
 
+div.galata {
+    width: 100vw;
+    height: 200vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 100vh 100vh;
+}
 
+div.galata > div.whatsapp {
+    grid-row: 1/2;
+}
+
+div.galata > div.gang {
+    grid-row: 2/3;
+}
+
+div.galata > div.gang > img {
+    width: 70vw;
+	box-shadow: 0.1em 0.1em 0.5em #888888;
+	border-radius: 5px;
+}
+
+div.istiklal {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+div.istiklal > div.gang > img {
+    width: 70vw;
+	box-shadow: 0.1em 0.1em 0.5em #888888;
+	border-radius: 5px;
+}
 
 
 div.collage {
@@ -618,13 +653,3 @@ div.collage > div.gang10 > img {
     margin-left: -1.5vw;
     margin-top: -1.5vh;
 }
-
-
-
-
-
-
-
-
-
-
